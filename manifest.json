@@ -1,0 +1,44 @@
+{ 
+	"AppDescription":  {
+		"en" : "metalist: an intelligent playlist manager"
+	},
+	"AppIcon": {
+		"36x18": "tutorial.png"
+	},
+	"AppName": {
+		"en": 	"Metalist"
+	},
+	"BundleIdentifier": 	"metalist",
+	"BundleType"	:	"Application",
+	"BundleVersion"	:	"0.1",
+	"DefaultTabs": [
+	{ 
+		"arguments" : "home_tab",
+		"title": {
+			"en": "Home"
+
+		}
+	}
+	],
+	"ApplicationLinkTypes" : [
+	"album",
+	"artist",
+	"playlist",
+	"track",
+	"user"
+	], 
+	"Dependencies": {
+	"api"	: 	"1.10.2",
+	"views":	"1.18.1"
+	},
+	"RequiredInterface": 1,
+	"RequiredPermissions": [
+	"http://api.twitter.com",
+	"https://graph.facebook.com",
+	"https://gist.github.com/"
+	],
+	"SupportedLanguages": [
+	"en"
+	],
+	"VendorIdentifier": "co.mager"
+}

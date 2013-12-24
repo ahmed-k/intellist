@@ -1,0 +1,10 @@
+
+#metlist-content {border: 1px solid #333;
+	width: 80%; 
+	padding: 10px; 
+	margin-right: 100px;}
+
+#metlist-content.over {
+	opacity:0.8;
+	border-color:#74c043;
+}
